@@ -4,7 +4,7 @@ USE `Farm`;
 
 -- create table
 
-CREATE TABLE 'Customers' (
+CREATE TABLE `Customers` (
     `FirstName` varchar (20) NULL,
     `LastName`  varchar (20) NULL,
     `Email`     varchar (30) NULL
