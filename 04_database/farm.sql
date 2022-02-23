@@ -2,7 +2,7 @@ DROP DATABASE IF EXISTS `Farm`;
 CREATE DATABASE IF NOT EXISTS `Farm`;
 USE `Farm`;
 
---create table
+-- create table
 
 CREATE TABLE 'Customers' (
     `FirstName` varchar (20) NULL,
@@ -10,7 +10,7 @@ CREATE TABLE 'Customers' (
     `Email`     varchar (30) NULL
 )
 
---sample
+-- sample
 
 INSERT INTO `Customers`, VALUES
     ('kara', 'danvers', 'kara@mit.edu'),
